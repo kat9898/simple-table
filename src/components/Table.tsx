@@ -85,8 +85,9 @@ const Table = (props: Props) => {
               setRows(rowsList);
             } catch (error) {
               console.log('Failed download data from server');
-              setCurrentRows([...data1, ...data2]);
-              setRows([...data1, ...data2]);
+              const rowsList = addColumn([...data1, ...data2]);
+              setCurrentRows(rowsList);
+              setRows(rowsList);
             }
           }
         getData();
