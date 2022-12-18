@@ -6,6 +6,9 @@ Simple table with sorting, filter features
 
 In the project directory, you can run:
 
+![image](https://user-images.githubusercontent.com/39970318/208270742-c333cddd-9721-4af5-89e7-2226acdf4828.png)
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
